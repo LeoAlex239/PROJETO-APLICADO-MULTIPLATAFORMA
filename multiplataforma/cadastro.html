@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <h2>Cadastro</h2>
+      <form>
+        <input type="text" placeholder="Nome Completo" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="text" placeholder="Nome de Usuário" required />
+        <input type="password" placeholder="Senha" required />
+        <label for="user-type">Sou:</label>
+        <select id="user-type" name="user-type">
+          <option value="aluno">Aluno</option>
+          <option value="professor">Professor</option>
+        </select>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+    </div>
+  </body>
+</html>
